@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ECF0A90A-7028-49F1-B7BA-3A7EB7292FBB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ColorizedFogOfWar</RootNamespace>
+    <AssemblyName>ColorizedFogOfWar</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ColorizedTextures\FOW_Deco_ShipSmall COLOUR %281%29.dds" />
+    <Content Include="ColorizedTextures\ship logo COLOUR.dds" />
+    <Content Include="OriginalTextures\FOW_CompassLines.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Border_1.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Border_2.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Border_3.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Border_4.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Border_CL.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Border_CR.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Compass.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Fish.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Hippocampus.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Neptune.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Octopus.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_ShipLarge.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_ShipSmall.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Snallygaster.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Squid.dds" />
+    <Content Include="OriginalTextures\FOW_Deco_Wyrm.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Cliff.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Desert.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Desert_Top.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Floodplains.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Galapagos.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Ice.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Marsh.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Mountain.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Mountain_Desert_Stripe01.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Mountain_Snow.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Salt_Base.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Snow.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Temp_1024.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Temp_2048.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Temp_512.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Tundra.dds" />
+    <Content Include="OriginalTextures\FOW_Ground_Tundra_Blend.dds" />
+    <Content Include="OriginalTextures\FOW_Hatch_1_Heavy.dds" />
+    <Content Include="OriginalTextures\FOW_Hatch_2_Med.dds" />
+    <Content Include="OriginalTextures\FOW_Hatch_3_MedLight.dds" />
+    <Content Include="OriginalTextures\FOW_Hatch_4_Light.dds" />
+    <Content Include="OriginalTextures\FOW_Invisible.dds" />
+    <Content Include="OriginalTextures\FOW_Model_Hatch_Med.dds" />
+    <Content Include="OriginalTextures\FOW_Model_Parchment_Light.dds" />
+    <Content Include="OriginalTextures\FOW_Parchment_Light.dds" />
+    <Content Include="OriginalTextures\FOW_River_Parchment.dds" />
+    <Content Include="OriginalTextures\FOW_Ruin_Debris_Decal.dds" />
+    <Content Include="OriginalTextures\FOW_Ruin_Debris_Decal_Light.dds" />
+    <Content Include="OriginalTextures\FOW_Tree_PIL_Decal.dds" />
+    <Content Include="OriginalTextures\FOW_Water_Deep.dds" />
+    <Content Include="OriginalTextures\FOW_Water_Shallow.dds" />
+    <Content Include="OriginalTextures\FOW_Water_Shallow_Small_1.dds" />
+    <Content Include="OriginalTextures\FOW_Water_Shallow_Small_2.dds" />
+    <Content Include="OriginalTextures\FOW_Water_Shallow_Small_3.dds" />
+    <Content Include="OriginalTextures\FOW_Water_Shallow_Small_4.dds" />
+    <Content Include="OriginalTextures\FOW_Water_Shallow_Small_5.dds" />
+    <Content Include="OriginalTextures\FOW_Water_Shallow_Small_6.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Large_1.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Large_2.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Large_3.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Large_4.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Large_5.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Med_1.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Med_2.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Med_3.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Med_4.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Med_5.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Small_1.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Small_2.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Small_3.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Small_4.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Deep_Small_5.dds" />
+    <Content Include="OriginalTextures\FOW_Waves_Shallow_Tile.dds" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
