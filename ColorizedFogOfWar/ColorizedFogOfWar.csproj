@@ -52,7 +52,7 @@
     <Content Include="ColorizedTextures\FOW_Deco_Snallygaster.dds" />
     <Content Include="ColorizedTextures\FOW_Deco_Squid.dds" />
     <Content Include="ColorizedTextures\FOW_Deco_Wyrm.dds" />
-    <Content Include="Mod.Art.xml" />
+    <Content Include="ColorizedFogOfWar.Art.xml" />
     <Content Include="OriginalTextures\FOW_CompassLines.dds" />
     <Content Include="OriginalTextures\FOW_Deco_Border_1.dds" />
     <Content Include="OriginalTextures\FOW_Deco_Border_2.dds" />
@@ -72,6 +72,16 @@
     <Content Include="OriginalTextures\FOW_Deco_Wyrm.dds" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ColorizedTextures\FOW_Deco_Compass.tex" />
+    <None Include="ColorizedTextures\FOW_Deco_Fish.tex" />
+    <None Include="ColorizedTextures\FOW_Deco_Hippocampus.tex" />
+    <None Include="ColorizedTextures\FOW_Deco_Neptune.tex" />
+    <None Include="ColorizedTextures\FOW_Deco_Octopus.tex" />
+    <None Include="ColorizedTextures\FOW_Deco_ShipLarge.tex" />
+    <None Include="ColorizedTextures\FOW_Deco_ShipSmall.tex" />
+    <None Include="ColorizedTextures\FOW_Deco_Snallygaster.tex" />
+    <None Include="ColorizedTextures\FOW_Deco_Squid.tex" />
+    <None Include="ColorizedTextures\FOW_Deco_Wyrm.tex" />
     <None Include="TextureTemplate.tex" />
   </ItemGroup>
   <ItemGroup>

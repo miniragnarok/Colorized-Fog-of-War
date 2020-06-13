@@ -1,18 +1,63 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..XLP>
-  <m_Version>
-    <major>4</major>
-    <minor>0</minor>
-    <build>315</build>
-    <revision>805</revision>
-  </m_Version>
-  <m_ClassName text="UITexture" />
-  <m_PackageName text="ColorizedFogOfWar" />
-  <m_Entries />
-  <m_AllowedPlatforms>
-    <Element>WINDOWS</Element>
-    <Element>LINUX</Element>
-    <Element>MACOS</Element>
-    <Element>IOS</Element>
-  </m_AllowedPlatforms>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="FOWTexture"/>
+	<m_PackageName text="ColorizedFogOfWar"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="FOW_Deco_Compass"/>
+			<m_ObjectName text="FOW_Deco_Compass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_Fish"/>
+			<m_ObjectName text="FOW_Deco_Fish"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_Hippocampus"/>
+			<m_ObjectName text="FOW_Deco_Hippocampus"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_Neptune"/>
+			<m_ObjectName text="FOW_Deco_Neptune"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_Octopus"/>
+			<m_ObjectName text="FOW_Deco_Octopus"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_ShipLarge"/>
+			<m_ObjectName text="FOW_Deco_ShipLarge"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_ShipSmall"/>
+			<m_ObjectName text="FOW_Deco_ShipSmall"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_Snallygaster"/>
+			<m_ObjectName text="FOW_Deco_Snallygaster"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_Squid"/>
+			<m_ObjectName text="FOW_Deco_Squid"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_Wyrm"/>
+			<m_ObjectName text="FOW_Deco_Wyrm"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FOW_Deco_Compass.tex"/>
+			<m_ObjectName text="FOW_Deco_Compass.tex"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>LINUX</Element>
+	</m_AllowedPlatforms>
 </AssetObjects..XLP>
+

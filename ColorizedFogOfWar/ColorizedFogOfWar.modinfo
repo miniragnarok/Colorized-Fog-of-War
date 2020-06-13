@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="" version="1">
+<Mod id="c88524ba-d700-4bc7-9f0b-3605c90341b6" version="1">
   <Properties>
-    <Name>ColorizedFogOfWar</Name>
-    <Description>Replaces the historic moment art with custom colorized art.</Description>
-    <Teaser>Replaces the historic moment art with custom colorized art.</Teaser>
+    <Name>Colorized Fog Of War</Name>
+    <Description>Replaces the tan fog of war decorations with colorized versions.</Description>
+    <Teaser>Replaces the tan fog of war decorations with colorized versions.</Teaser>
     <Authors>miniragnarok</Authors>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>

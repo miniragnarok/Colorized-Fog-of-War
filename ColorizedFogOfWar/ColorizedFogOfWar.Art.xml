@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
   <id>
-    <name text="Colorized Historic Moments"/>
-    <id text="a01ede98-fa74-422e-bdcf-96179cfe125b"/>
+    <name text="ColorizedFogOfWar"/>
+    <id text="c88524ba-d700-4bc7-9f0b-3605c90341b6"/>
   </id>
   <artConsumers>
     <Element>
