@@ -70,6 +70,7 @@
     <Content Include="OriginalTextures\FOW_Deco_Snallygaster.dds" />
     <Content Include="OriginalTextures\FOW_Deco_Squid.dds" />
     <Content Include="OriginalTextures\FOW_Deco_Wyrm.dds" />
+    <Content Include="Thumbnails\Thumbnail.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ColorizedTextures\FOW_Deco_Compass.tex" />
