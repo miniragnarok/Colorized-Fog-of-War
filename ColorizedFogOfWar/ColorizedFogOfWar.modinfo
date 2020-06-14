@@ -1,24 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="c88524ba-d700-4bc7-9f0b-3605c90341b6" version="1">
+<Mod id="dd9da6b4-d526-42cb-9535-9abc718fac6f" version="1">
   <Properties>
     <Name>Colorized Fog Of War</Name>
     <Description>Replaces the tan fog of war decorations with colorized versions.</Description>
+    <Created>1592098408</Created>
     <Teaser>Replaces the tan fog of war decorations with colorized versions.</Teaser>
     <Authors>miniragnarok</Authors>
     <AffectsSavedGames>0</AffectsSavedGames>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
-  <FrontEndActions />
   <InGameActions>
-    <UpdateArt id="CHM_UpdateArt">
-      <File priority="10">Colored Historic Moments.dep</File>
+    <UpdateArt id="CFOW_UpdateArt">
+      <File priority="10">ColorizedFogOfWar.dep</File>
     </UpdateArt>
   </InGameActions>
   <Files>
+    <File>ArtDefs/FOW.artdef</File>
     <File>ColorizedFogOfWar.dep</File>
     <File>Platforms/MacOS/BLPs/ColorizedFogOfWar.blp</File>
     <File>Platforms/Windows/BLPs/ColorizedFogOfWar.blp</File>
-    <File>ColorizedFogOfWar.artdef</File>
-    <File>ColorizedFogOfWar.xlp</File>
   </Files>
 </Mod>

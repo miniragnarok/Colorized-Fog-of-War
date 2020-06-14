@@ -82,7 +82,6 @@
     <None Include="ColorizedTextures\FOW_Deco_Snallygaster.tex" />
     <None Include="ColorizedTextures\FOW_Deco_Squid.tex" />
     <None Include="ColorizedTextures\FOW_Deco_Wyrm.tex" />
-    <None Include="TextureTemplate.tex" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />

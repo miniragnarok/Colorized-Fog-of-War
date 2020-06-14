@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::GameArtSpecification>
+<AssetObjects..GameArtSpecification>
   <id>
     <name text="ColorizedFogOfWar"/>
-    <id text="c88524ba-d700-4bc7-9f0b-3605c90341b6"/>
+    <id text="dd9da6b4-d526-42cb-9535-9abc718fac6f"/>
   </id>
   <artConsumers>
     <Element>
@@ -149,6 +149,7 @@
     <Element>
       <consumerName text="FOW"/>
       <relativeArtDefPaths>
+        <Element text="FOW.artdef"/>
       </relativeArtDefPaths>
       <libraryDependencies>
         <Element text="FOWSprite"/>
@@ -410,16 +411,6 @@
       </libraryDependencies>
       <loadsLibraries>true</loadsLibraries>
     </Element>
-    <Element>
-      <consumerName text="UI"/>
-      <relativeArtDefPaths>
-        <Element text="ColorizedHistoricMoments.artdef"/>
-      </relativeArtDefPaths>
-      <libraryDependencies>
-        <Element text="UITexture"/>
-      </libraryDependencies>
-      <loadsLibraries>true</loadsLibraries>
-    </Element>
   </artConsumers>
   <gameLibraries>
     <Element>
@@ -440,6 +431,7 @@
     <Element>
       <libraryName text="FOWSprite"/>
       <relativePackagePaths>
+        <Element text="ColorizedFogOfWar.blp"/>
       </relativePackagePaths>
     </Element>
     <Element>
@@ -582,18 +574,11 @@
       <relativePackagePaths>
       </relativePackagePaths>
     </Element>
-    <Element>
-      <libraryName text="UITexture"/>
-      <relativePackagePaths>
-        <Element text="ColorizedHistoricMoments.blp"/>
-      </relativePackagePaths>
-    </Element>
   </gameLibraries>
   <requiredGameArtIDs>
     <Element>
-      <name text="Civ6"/>
-      <id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+      <name text="Shared"/>
+      <id text="725760e3-7fc0-4be7-abf1-17bc756d5436"/>
     </Element>
   </requiredGameArtIDs>
-</AssetObjects::GameArtSpecification>
-
+</AssetObjects..GameArtSpecification>
