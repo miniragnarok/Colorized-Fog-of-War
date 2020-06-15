@@ -42,16 +42,6 @@
     <None Include="ColorizedFogOfWar.xlp" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ColorizedTextures\FOW_Deco_Compass.dds" />
-    <Content Include="ColorizedTextures\FOW_Deco_Fish.dds" />
-    <Content Include="ColorizedTextures\FOW_Deco_Hippocampus.dds" />
-    <Content Include="ColorizedTextures\FOW_Deco_Neptune.dds" />
-    <Content Include="ColorizedTextures\FOW_Deco_Octopus.dds" />
-    <Content Include="ColorizedTextures\FOW_Deco_ShipSmall.dds" />
-    <Content Include="ColorizedTextures\FOW_Deco_ShipLarge.dds" />
-    <Content Include="ColorizedTextures\FOW_Deco_Snallygaster.dds" />
-    <Content Include="ColorizedTextures\FOW_Deco_Squid.dds" />
-    <Content Include="ColorizedTextures\FOW_Deco_Wyrm.dds" />
     <Content Include="ColorizedFogOfWar.Art.xml" />
     <Content Include="OriginalTextures\FOW_CompassLines.dds" />
     <Content Include="OriginalTextures\FOW_Deco_Border_1.dds" />
